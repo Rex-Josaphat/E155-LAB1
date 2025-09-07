@@ -4,7 +4,7 @@
 
 // This codebase represents the testbench to simulate and determine if the codebase prompts the hardware to react as desired/expected
 
-`timescale 1ns/1ns // Defines time unit as 1ns and time precision as 1ps
+`timescale 1ns/1ns // Defines time unit as 1ns and time precision as 1ns
 module onBoardLEDCtrl_tb();
 		logic clk, reset;
 		logic [3:0] swDIP;
